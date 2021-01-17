@@ -21,5 +21,7 @@ end
 
 
 def printer
-  rooms.each {|i| puts i}
+  badge_messages.each {|i| puts i} #output results of batch_badge_collector
+
+  rooms.each {|i| puts i} #output results of assign_rooms
 end
