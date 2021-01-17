@@ -21,4 +21,5 @@ end
 
 
 def printer
+  rooms.each {|i| puts i}
 end
