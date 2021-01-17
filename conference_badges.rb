@@ -21,7 +21,7 @@ end
 
 
 def printer(name_array)
-  badge_messages.each {|i| puts i} #output results of batch_badge_collector
+  batch_badge_creator(name_array).each {|i| puts i} #output results of batch_badge_collector
 
-  rooms.each {|i| puts i} #output results of assign_rooms
+  assign_rooms(name_array).each {|i| puts i} #output results of assign_rooms
 end
