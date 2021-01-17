@@ -20,7 +20,7 @@ end
 
 
 
-def printer
+def printer(name_array)
   badge_messages.each {|i| puts i} #output results of batch_badge_collector
 
   rooms.each {|i| puts i} #output results of assign_rooms
