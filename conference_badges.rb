@@ -1,5 +1,5 @@
 # Write your code here.\
-name_array ["Ed", "Joe", "Bloe", "James", "Fiona", "Tiffany", ]
+name_array ["Ed", "Joe", "Bloe", "James", "Fiona", "Tiffany", "Jess"]
 
 
 def badge_maker(name)
