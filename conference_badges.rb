@@ -18,8 +18,6 @@ def assign_rooms(name_array)
   rooms
 end
 
-
-
 def printer(name_array)
   batch_badge_creator(name_array).each {|i| puts i} #output results of batch_badge_collector
 
